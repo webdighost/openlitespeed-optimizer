@@ -1,0 +1,12 @@
+/var/log/ols_optimize.log {
+  daily
+  rotate 1
+  missingok
+  notifempty
+  compress
+  delaycompress
+  create 0640 root root
+  postrotate
+    :
+  endscript
+}

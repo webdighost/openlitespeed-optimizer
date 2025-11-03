@@ -1,0 +1,12 @@
+/var/log/cpfence_ols_freeze.log {
+  daily
+  rotate 1
+  missingok
+  notifempty
+  compress
+  delaycompress
+  create 0640 root root
+  postrotate
+    :
+  endscript
+}
